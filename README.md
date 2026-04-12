@@ -32,3 +32,14 @@ b) Выбор метрик качества
 Позволяет оценить общую точность модели, однако может быть менее информативной при несбалансированных данных, поэтому используется в дополнение к другим метрикам.
 
 # Инструкция
+
+Для демонстрации работоспособности кода, необходимо запустить ноутбуки, представленные в репозитории по порядку:
+1) [text](point_2/baseline.ipynb)
+2) [text](point_3/hypothesis1.ipynb)
+3) [text](point_3/hypothesis2.ipynb)
+4) [text](point_3/hypothesis3.ipynb)
+5) [text](point_3/updateBaseline.ipynb)
+6) [text](point_4/implementedModel.ipynb)
+7) [text](point_4/updateImplementedModel.ipynb)
+
+В папках point_2, point_3, point_4 представлены файлы в соответствии с описанием всех пунктов лабораторной работы. Выводы из 3 пункта можно прочесть в файле updateBaseline.ipynb. Выводы из 4 пункта можно посмотреть в файлах implementedModel.ipynb и updateImplementedModel.ipynb
