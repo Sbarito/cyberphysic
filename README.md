@@ -33,13 +33,15 @@ b) Выбор метрик качества
 
 # Инструкция
 
+Первым длеом нужно скачать два датасета ISIC2018_Task1-2_Training_Input и ISIC2018_Task1_Training_GroundTruth отсюда: https://challenge.isic-archive.com/data/#2018. Далее полученные файлы необходимо поместить в папки train_images и train_labels соответсвенно. Далее из каждой папки необходимо удалить файлы LICENSE.txt и  ATTRIBUTION.txt. После нужно запустить скрипт filterData.py
+
 Для демонстрации работоспособности кода, необходимо запустить ноутбуки, представленные в репозитории по порядку:
-1) [text](point_2/baseline.ipynb)
-2) [text](point_3/hypothesis1.ipynb)
-3) [text](point_3/hypothesis2.ipynb)
-4) [text](point_3/hypothesis3.ipynb)
-5) [text](point_3/updateBaseline.ipynb)
-6) [text](point_4/implementedModel.ipynb)
-7) [text](point_4/updateImplementedModel.ipynb)
+1) [baseline](point_2/baseline.ipynb)
+2) [hypothesis1](point_3/hypothesis1.ipynb)
+3) [hypothesis2](point_3/hypothesis2.ipynb)
+4) [hypothesis3](point_3/hypothesis3.ipynb)
+5) [updateBaseline](point_3/updateBaseline.ipynb)
+6) [implementedModel](point_4/implementedModel.ipynb)
+7) [updateImplementedModel](point_4/updateImplementedModel.ipynb)
 
 В папках point_2, point_3, point_4 представлены файлы в соответствии с описанием всех пунктов лабораторной работы. Выводы из 3 пункта можно прочесть в файле updateBaseline.ipynb. Выводы из 4 пункта можно посмотреть в файлах implementedModel.ipynb и updateImplementedModel.ipynb
