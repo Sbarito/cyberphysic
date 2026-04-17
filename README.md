@@ -33,7 +33,7 @@ b) Выбор метрик качества
 
 # Инструкция
 
-Первым длеом нужно скачать два датасета ISIC2018_Task1-2_Training_Input и ISIC2018_Task1_Training_GroundTruth отсюда: https://challenge.isic-archive.com/data/#2018. Далее полученные файлы необходимо поместить в папки train_images и train_labels соответсвенно. Далее из каждой папки необходимо удалить файлы LICENSE.txt и  ATTRIBUTION.txt. После нужно запустить скрипт filterData.py
+Первым длеом нужно скачать два датасета ISIC2018_Task1-2_Training_Input и ISIC2018_Task1_Training_GroundTruth отсюда: https://challenge.isic-archive.com/data/#2018. Далее полученные файлы необходимо поместить в папки train_images и train_labels соответсвенно. Далее из каждой папки необходимо удалить файлы LICENSE.txt и  ATTRIBUTION.txt. После нужно запустить скрипт filterData.py, а затем removeJpg.py
 
 Для демонстрации работоспособности кода, необходимо запустить ноутбуки, представленные в репозитории по порядку:
 1) [baseline](point_2/baseline.ipynb)
